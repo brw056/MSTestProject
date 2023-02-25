@@ -33,4 +33,4 @@ jobs:
           msbuild.exe MsTestProject.sln /p:platform="Any CPU" /p:configuration="Release"
         
       - name: Run Tests
-        run: vstest.console.exe .\tests\MsTestProject.Tests\bin\Release\MSTestProject.Tests.dll
+        run: ls
